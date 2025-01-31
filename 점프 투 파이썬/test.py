@@ -1,4 +1,7 @@
 # 1+1 프로그램 
+import sys
+
+
 print(1+1)
 
 """
@@ -185,3 +188,7 @@ print("----------------------")
 with open("D:/test_python_file.txt", "a") as f:
     f.write("Life is too short, you need python")
     
+print("----- 04-4 프로그램 입출력 -----")    
+args = sys.argv[1:]
+for i in args:
+    print(i)
